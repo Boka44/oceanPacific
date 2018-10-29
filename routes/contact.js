@@ -28,7 +28,7 @@ app.post('/send', function (req, res) {
   	const from = name && email ? `${name} <${email}>` : `${name || email}`
  	const mailOptions = {
 	    from: 'nhrboka@aol.com',
-	    to: 'nicholashrboka@gmail.com',
+	    to: 'johnfoster1224@gmail.com',
 	    subject: `New message from ${from} at OceanPacificDreams`,
 	    text
   	};
@@ -37,7 +37,7 @@ app.post('/send', function (req, res) {
 	    if(error){
 	        console.log(error);
 	        res.redirect('back');
-	    }else{
+	    } else {
 	        console.log('Message sent: ' + info.response);
 	        res.redirect('back');
     	};

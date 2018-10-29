@@ -1,20 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>oceanpacificdreams - Lots for Sale in Costa Rica</title>
-
-  <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link href="css/animate.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" />
-</head>
+<% include ./partials/head %>
 
 <body>
   <header id="header">
@@ -65,7 +52,7 @@
 
         <div class="carousel-inner">
           <div class="item active">
-            <img src="img/main4.jpg" class="img-responsive" alt="">
+            <img src="img/main4.jpg" class="img-responsive" alt="Costa Rica">
             <div class="carousel-caption">
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
                 <h2><span>Own Land in Costa Rica</span></h2>
@@ -89,7 +76,7 @@
           </div>
 
           <div class="item">
-            <img src="img/main2.jpg" class="img-responsive" alt="">
+            <img src="img/main2.jpg" class="img-responsive" alt="Costa Rica">
             <div class="carousel-caption">
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
                 <h2>Explore the Land</h2>
@@ -112,7 +99,7 @@
             </div>
           </div>
           <div class="item">
-            <img src="img/main3.jpg" class="img-responsive" alt="">
+            <img src="img/main3.jpg" class="img-responsive" alt="Costa Rica">
             <div class="carousel-caption">
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
                 <h2>Piece of Paradise</h2>
@@ -158,6 +145,9 @@
           <p><%= content.summary%></p>
         </div>
 
+        <img class="img-responsive" src="img/beach9.jpg">
+        <br>
+        <br>
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="btn-gamp"><a href="/about">Learn More</a></div>
         </div>
@@ -201,14 +191,29 @@
     </div>
   </div>
 
+  <section class="text-center">
+    <h3><em><strong>Plots of land for sale ranging from $50,000 to $120,000.</strong></em></h3>
+  </section>
+
   <section class="action">
     <div class="container">
-      <div class="left-text hidden-xs">
-        <h4>Land for Farming</h4>
-        <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ut explicabo magni sapiente.</em><br><br>Inventore at quia, vel in repellendus, cumque dolorem autem ad quidem mollitia porro blanditiis atque rerum debitis eveniet nostrum aliquam.
-          Sint aperiam expedita sapiente amet officia quis perspiciatis adipisci, iure dolorem esse exercitationem!</p>
+      <div class="left-image"></div>
+      <div class="right-text">
+        <h4>Ocean Property</h4>
+        <p><em>Lots available along the coast.</em><br><br>Explore the coast and what the water has to offer.</p>
       </div>
-      <div class="right-image hidden-xs"></div>
+    </div>
+  </section>
+
+  
+
+  <section class="action">
+    <div class="container">
+      <div class="left-text">
+        <h4>Land for Farming</h4>
+        <p><em>Plenty of acres avaialble perfect for farming.</em><br><br>All lots have plenty of space and fertile soil, great for animals and vegetation.</p>
+      </div>
+      <div class="right-image"></div>
     </div>
   </section>
 
@@ -220,7 +225,7 @@
     <div class="container">
       <div class="col-md-4">
         <figure class="effect-marley">
-          <img src="img/CIMG0221.jpg" alt="" class="img-responsive" />
+          <img src="img/CIMG0221.jpg" alt="Costa Rica" class="img-responsive" />
           <figcaption>
             <h4>Explore</h4>
             <p>Start your adventure here.</p>
@@ -229,7 +234,7 @@
       </div>
       <div class="col-md-4">
         <figure class="effect-marley">
-          <img src="img/CIMG0206.jpg" alt="" class="img-responsive" />
+          <img src="img/beach2.jpg" alt="Costa Rica" class="img-responsive" />
           <figcaption>
             <h4>Dream</h4>
             <p>Create your dream home.</p>
@@ -238,7 +243,7 @@
       </div>
       <div class="col-md-4">
         <figure class="effect-marley">
-          <img src="img/CIMG0173.jpg" alt="" class="img-responsive" />
+          <img src="img/CIMG0206.jpg" alt="Costa Rica" class="img-responsive" />
           <figcaption>
             <h4>Build</h4>
             <p>Develop the land and make it your own.</p>
@@ -250,7 +255,7 @@
     <div class="container">
       <div class="col-md-4">
         <figure class="effect-marley">
-          <img src="img/CIMG0164.jpg" alt="" class="img-responsive" />
+          <img src="img/CIMG0164.jpg" alt="Costa Rica" class="img-responsive" />
           <figcaption>
             <h4>Create</h4>
             <p>Create your perfect reality.</p>
@@ -259,7 +264,7 @@
       </div>
       <div class="col-md-4">
         <figure class="effect-marley">
-          <img src="img/CIMG0160.jpg" alt="" class="img-responsive" />
+          <img src="img/CIMG0160.jpg" alt="Costa Rica" class="img-responsive" />
           <figcaption>
             <h4>Relax</h4>
             <p>Enjoy the tranquil surroundings.</p>
@@ -268,7 +273,7 @@
       </div>
       <div class="col-md-4">
         <figure class="effect-marley">
-          <img src="img/CIMG0201.jpg" alt="" class="img-responsive" />
+          <img src="img/beach1.jpg" alt="Costa Rica" class="img-responsive" />
           <figcaption>
             <h4>Retire</h4>
             <p>Live in paradise.</p>
@@ -286,9 +291,9 @@
         <div class="contact-info">
           <ul>
             <li><i class="fa fa-home fa"></i> Jicaral, Puntarenas, Costa Rica</li>
-            <li><i class="fa fa-phone fa"></i> Toll Free US/Canada: +1 (800) 309-2057</li>
+            <!-- <li><i class="fa fa-phone fa"></i> Toll Free US/Canada: +1 (800) 309-2057</li> -->
             <li><i class="fa fa-phone fa"></i> USA Mobile: +1 (562) 607-4066</li>
-            <li><i class="fa fa-phone fa"></i> CR Mobile: (+506) 8407-1286</li>
+            <li><i class="fa fa-phone fa"></i> CR Mobile: (+506) 8895-0693</li>
 
             <li><i class="fa fa-envelope fa"></i> Email: info@oceanpacificdreams.com</li>
           </ul>

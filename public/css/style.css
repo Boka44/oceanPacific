@@ -786,6 +786,37 @@ figure.effect-marley:hover p {
   background-repeat: no-repeat;
   background-image: url(../img/horse1.jpg);
 }
+.action .right-text {
+  padding: 70px 0;
+  margin-left: 62%;
+  width: 50%;
+}
+.action .right-text h4 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.action .right-text p {
+  padding-top: 20px;
+}
+.action .right-text em {
+  font-size: 16px;
+  color: #aaa;
+  font-weight: 300;
+  font-style: normal;
+}
+.action .left-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-image: url(../img/beach5.jpg);
+}
 
 /* --- Map --- */
 .map{
