@@ -6,7 +6,7 @@ const passport = require('passport');
 const flash = require('connect-flash');
 const cookieParser = require('cookie-parser');
 const session = require("express-session");
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 80;
 const app = express();
 require('dotenv').config();
 
